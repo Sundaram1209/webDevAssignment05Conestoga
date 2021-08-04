@@ -1,0 +1,67 @@
+/* Global Properties */
+
+
+body {
+  background: #404988;
+  font-family: "Verdana", cursive;
+}
+
+/* Main Heading Font */
+.m-heading {
+  font-family: "Trebuchet MS", serif;
+}
+.navigation-link{
+  border: 2px solid transparent;
+}
+
+.navigation-link:hover{ /*this will change colour of the elements n the navigation bar when we hover over it    */
+  text-decoration: none;
+  border-bottom: 2px solid yellow;
+  transition: 0.5s ease;
+}
+.main-container{
+  /*giving height and padding*/
+  min-height: 100vh;
+  padding-top: 5rem;
+
+}
+.main-row
+{ /*centering these things*/
+  display:flex;
+  justify-content: center;
+  align-items:center;
+}
+.main-row img {
+  height: 30rem;
+  width: auto;
+}
+.main-row h1 {
+  font-size: 5rem ;
+}
+#about{
+  background: rgba(139, 128, 128, 0.212);
+  border-radius: 0.5rem;
+  
+}
+#social-media{
+  background: rgba(87, 95, 116, 0.596);
+
+}
+.media_link{
+  padding: 1rem;
+  max-width: 13rem;
+  margin-left: 0.8rem;
+  border: 2px solid rgb(39, 39, 218);
+  border-radius: 1rem;
+}
+html { /* This will add smooth scrolling effect in the HTML*/
+  scroll-behavior: smooth;
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
